@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                'The number of participants in the last 30 days is: 50',
+                'The number of participants in the last 30 days is: 30',
                 style: TextStyle(
                   fontSize: 18,
                 ),
