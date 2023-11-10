@@ -4,15 +4,15 @@ class ResultModel with ChangeNotifier {
   String? _fileName;
   String? _results;
 
-  String? get results => _results;
   String? get filename => _fileName;
+  String? get results => _results;
 
   void setFilename(String fileName) {
-    _fileName = filename;
+    _fileName = fileName;
     notifyListeners();
   }
 
-  void setResults(String fileName) {
+  void setResults(String? results) {
     _results = results;
     notifyListeners();
   }

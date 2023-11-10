@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pm_data_analysis/models/result_model.dart';
-import 'package:pm_data_analysis/screens/home_screen.dart';
+import 'package:pm_data_analysis/screens/file_picker.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      title: 'Flutter Demo',
-      home: HomeScreen(),
+      title: 'VP Data Analyzer',
+      home: FilePickerDemo(),
     );
   }
 }
